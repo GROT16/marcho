@@ -32,7 +32,12 @@ $bg: #f6f6f6;
   padding: 12px 26px;
 }
 
-
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
 
 
 
